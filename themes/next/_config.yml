@@ -1,31 +1,6 @@
-# ===============================================================
-# ========================= ATTENTION! ==========================
-# ===============================================================
-# NexT repository is moving here: https://github.com/theme-next
-# ===============================================================
-# It's rebase to v6.0.0 and future maintenance will resume there
-# ===============================================================
 
-# ---------------------------------------------------------------
-# Theme Core Configuration Settings
-# ---------------------------------------------------------------
-
-# Set to true, if you want to fully override the default configuration.
-# Useful if you don't want to inherit the theme _config.yml configurations.
 override: false
 
-# ---------------------------------------------------------------
-# Site Information Settings
-# ---------------------------------------------------------------
-
-# To get or check favicons visit: https://realfavicongenerator.net
-# Put your favicons into `hexo-site/source/` (recommend) or `hexo-site/themes/next/source/images/` directory.
-
-# Default NexT favicons placed in `hexo-site/themes/next/source/images/` directory.
-# And if you want to place your icons in `hexo-site/source/` root directory, you must remove `/images` prefix from pathes.
-
-# For example, you put your favicons into `hexo-site/source/images` directory.
-# Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
   small: /images/favicon-16x16-next.png
   medium: /images/favicon-32x32-next.png
@@ -37,9 +12,7 @@ favicon:
 # Set default keywords (Use a comma to separate)
 keywords: "node, javascript, css, html, flutter"
 
-# Set rss to false to disable feed link.
-# Leave rss as empty to use site's feed link.
-# Set rss to specific value if you have burned your feed already.
+
 rss:
 
 footer:
@@ -75,7 +48,7 @@ footer:
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
@@ -96,7 +69,6 @@ menu:
   #categories: /categories/ || th
   archives: /archives/ || archive
   tags: /tags/ || tags
-  search: /search/ || search
   about: /about/ || user
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
@@ -129,11 +101,10 @@ scheme: Pisces
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/ibyli || github
-  微博: https://weibo.com/5545403258/profile?topnav=1&wvr=6&is_all=1 || weibo
   掘金: https://juejin.im/user/5aa6099c5188255581549d55
   CSDN: https://blog.csdn.net/Favorite_vyve
-  简书: https://www.jianshu.com/u/75fa85931aaa
-  知乎: https://www.zhihu.com/people/FavoriteVYVE/activities
+  简书: https://www.jianshu.com/c/19b4e3b7d0e9
+  知乎: https://zhuanlan.zhihu.com/c_1129435002307477504/
 
 social_icons:
   enable: true
@@ -146,17 +117,19 @@ links_title: Links
 links_layout: block
 #links_layout: inline
 links:
-  CNode: https://cnodejs.org/
-  React.js: https://react.docschina.org/
-  Vue.js: https://cn.vuejs.org/
-  Flutter: https://flutterchina.club/
+  CNode: https://cnodejs.org
+  React.js: https://react.docschina.org
+  React Native: https://facebook.github.io/react-native
+  Vue.js: https://cn.vuejs.org
+  Flutter: https://flutterchina.club
   Electron: https://electronjs.org/docs/tutorial/first-app
+  MongoDB:  https://www.mongodb.org
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: https://blog-luo.oss-cn-beijing.aliyuncs.com/user/37284154.jpg?Expires=1561991687&OSSAccessKeyId=TMP.AgFfvsA6CuKRsQ-cqP0Unv1UU4gYTlYUNEKmeQxZCQE56rcEjGqtetMJALYuAAAwLAIUXI6k48NpjnCT2jwXPdzv-d1ZOPgCFB8bzdQm68rpUQ8PUHBCdcRenwvk&Signature=XHzIBFUlArM5Vwdk3PRRGxNWz5k%3D
-author: '罗绪海'
+avatar: https://blog-luo.oss-cn-beijing.aliyuncs.com/user/37284154.jpg
+author: '大前端技术分享'
 description: '胡编一通，乱写一气'
 
 # Table Of Contents in the Sidebar
@@ -197,10 +170,10 @@ sidebar:
   b2t: false
 
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
   # Enable sidebar on narrow view (only for Muse | Mist).
-  onmobile: false
+  onmobile: true
 
 
 # ---------------------------------------------------------------
@@ -234,20 +207,20 @@ post_meta:
 post_wordcount:
   item_text: true
   wordcount: true  # 文章字数
-  min2read: false   # 阅读时间
+  min2read: true   # 阅读时间
   totalcount: true  # 总共字数
   separated_meta: true
 
 # Wechat Subscriber
 wechat_subscriber:
   enabled: true
-  qcode: https://blog-luo.oss-cn-beijing.aliyuncs.com/qrcode/WeChatOfficialAccount/qrcode_for_gh_542ac3ad35f4_430.jpg?Expires=1561991638&OSSAccessKeyId=TMP.AgFfvsA6CuKRsQ-cqP0Unv1UU4gYTlYUNEKmeQxZCQE56rcEjGqtetMJALYuAAAwLAIUXI6k48NpjnCT2jwXPdzv-d1ZOPgCFB8bzdQm68rpUQ8PUHBCdcRenwvk&Signature=u22BgXVAPIa66VItFJoWhzX9Z7c%3D
+  qcode: https://blog-luo.oss-cn-beijing.aliyuncs.com/qrcode/WeChatOfficialAccount/qrcode_for_gh_542ac3ad35f4_430.jpg
   description: 欢迎您扫一扫上面的微信公众号，订阅我的博客！
 
 # Reward
 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
-wechatpay: https://blog-luo.oss-cn-beijing.aliyuncs.com/qrcode/mm_facetoface_collect_qrcode_1561987792410.png?Expires=1561991598&OSSAccessKeyId=TMP.AgFfvsA6CuKRsQ-cqP0Unv1UU4gYTlYUNEKmeQxZCQE56rcEjGqtetMJALYuAAAwLAIUXI6k48NpjnCT2jwXPdzv-d1ZOPgCFB8bzdQm68rpUQ8PUHBCdcRenwvk&Signature=s%2BNUN%2B47wOkDhJ0LW7Rhh0YAdmg%3D
-alipay: https://blog-luo.oss-cn-beijing.aliyuncs.com/qrcode/1561987815937.jpg?Expires=1561991625&OSSAccessKeyId=TMP.AgFfvsA6CuKRsQ-cqP0Unv1UU4gYTlYUNEKmeQxZCQE56rcEjGqtetMJALYuAAAwLAIUXI6k48NpjnCT2jwXPdzv-d1ZOPgCFB8bzdQm68rpUQ8PUHBCdcRenwvk&Signature=wpsyOoBmYXeVmBZdlSLAy6IvD5c%3D
+wechatpay: https://blog-luo.oss-cn-beijing.aliyuncs.com/qrcode/mm_facetoface_collect_qrcode_1561987792410.png
+alipay: https://blog-luo.oss-cn-beijing.aliyuncs.com/qrcode/1561987815937.jpg
 
 # Declare license on posts
 post_copyright:
@@ -606,7 +579,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
@@ -644,9 +617,9 @@ label: true
 tabs:
   enable: true
   transition:
-    tabs: false
+    tabs: true
     labels: true
-  border_radius: 0
+  border_radius: 5
 
 
 #! ---------------------------------------------------------------

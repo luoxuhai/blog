@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 罗绪海
-subtitle:
-description:
-keywords:
-author: 罗绪海
+title: 大前端技术分享
+subtitle: 大前端技术分享
+description: 大前端技术分享
+keywords: 前端, 大前端, node, vue, react, react native, flutter, mongoose
+author: luoxuhai
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://furuzix.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -44,6 +44,12 @@ highlight:
   auto_detect: false
   tab_replace:
   
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+  content: true
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)

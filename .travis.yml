@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "0.12"
+install:
+  - cnpm install hexo-cli -g
+  - cnpm install hexo --save
+  - cnpm install
+script:
+  - chmod +x ./build.sh
+  - ./build.sh > /dev/null
+branches:
+  only:
+    - master
