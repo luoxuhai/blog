@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 大前端技术分享
-subtitle: 大前端技术分享
-description: 大前端技术分享
-keywords: 前端, 大前端, node, vue, react, react native, flutter, mongoose
-author: luoxuhai
+title: Darkce
+subtitle: 技术分享
+description: 大前端技术分享, 前端, 大前端， Darkce
+keywords: 前端, 大前端, node, vue, react, react native, flutter, mongoose, mongo
+author: Darkce
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://furuzix.top
+url: https://blog.furuzix.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -81,7 +81,5 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next 
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:

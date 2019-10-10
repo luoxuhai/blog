@@ -2,15 +2,15 @@
 override: false
 
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
+  small: /images/favicon-16x16-next.jpg
+  medium: /images/favicon-32x32-next.jpg
   apple_touch_icon: /images/apple-touch-icon-next.png
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "node, javascript, css, html, flutter"
+keywords: "前端, 大前端, node, javascript, css, html, flutter, mongoose, mongo, react"
 
 
 rss:
@@ -66,10 +66,9 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  #categories: /categories/ || th
+  categories: /categories/ || th
   archives: /archives/ || archive
   tags: /tags/ || tags
-  about: /about/ || user
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -101,10 +100,9 @@ scheme: Pisces
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/ibyli || github
-  掘金: https://juejin.im/user/5aa6099c5188255581549d55
-  CSDN: https://blog.csdn.net/Favorite_vyve
   简书: https://www.jianshu.com/c/19b4e3b7d0e9
   知乎: https://zhuanlan.zhihu.com/c_1129435002307477504/
+  B站: https://space.bilibili.com/46358562
 
 social_icons:
   enable: true
@@ -117,19 +115,17 @@ links_title: Links
 links_layout: block
 #links_layout: inline
 links:
-  CNode: https://cnodejs.org
-  React.js: https://react.docschina.org
-  React Native: https://facebook.github.io/react-native
-  Vue.js: https://cn.vuejs.org
-  Flutter: https://flutterchina.club
-  Electron: https://electronjs.org/docs/tutorial/first-app
-  MongoDB:  https://www.mongodb.org
+  古典小说: https://classics.furuzix.top/
+  MarkDown/Html在线转换: https://www.it399.com/code/markdown2html
+  字体家: https://www.zitijia.com/
+  Color Hunt: https://colorhunt.co/
+  中国传统颜色:  http://zhongguose.com/
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: https://blog-luo.oss-cn-beijing.aliyuncs.com/user/37284154.jpg
-author: '大前端技术分享'
+avatar: https://blog-luo.oss-cn-beijing.aliyuncs.com/user/avatar.png?x-oss-process=style/m
+author: 'Darkce'
 description: '胡编一通，乱写一气'
 
 # Table Of Contents in the Sidebar
@@ -206,15 +202,15 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: true  # 文章字数
-  min2read: true   # 阅读时间
-  totalcount: true  # 总共字数
+  wordcount: false  # 文章字数
+  min2read: false   # 阅读时间
+  totalcount: false  # 总共字数
   separated_meta: true
 
 # Wechat Subscriber
 wechat_subscriber:
   enabled: true
-  qcode: https://blog-luo.oss-cn-beijing.aliyuncs.com/qrcode/WeChatOfficialAccount/qrcode_for_gh_542ac3ad35f4_430.jpg
+  qcode: https://big-frontend.oss-cn-beijing.aliyuncs.com/app/qrcode/qrcode_for_gh_542ac3ad35f4_430.jpg
   description: 欢迎您扫一扫上面的微信公众号，订阅我的博客！
 
 # Reward
@@ -328,7 +324,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 0bad7eaf714fdbc95027ebb96cea5b7c
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -393,8 +389,8 @@ gitment:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
-##  type: button
+baidushare: true
+type: button
 
 # Share
 # This plugin is more useful in China, make sure you known how to use it.
@@ -670,10 +666,10 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
-three_waves: true
+three_waves: false
 
 # canvas_lines
 canvas_lines: false
