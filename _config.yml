@@ -82,4 +82,7 @@ pagination_dir: page
 theme: next 
 
 deploy:
-  type:
+  type: git
+  repo: https://github.com/ibyli/blog
+  branch: master
+  message: 
