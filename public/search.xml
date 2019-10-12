@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>《聊斋志异》翻译卷一</title>
+    <url>/2019/10/10/%E3%80%8A%E8%81%8A%E6%96%8B%E5%BF%97%E5%BC%82%E3%80%8B%E7%BF%BB%E8%AF%91%E5%8D%B7%E4%B8%80/</url>
+    <content><![CDATA[<h2 id="29-真定女"><a href="#29-真定女" class="headerlink" title="29 真定女"></a>29 真定女</h2><h3 id="译文"><a href="#译文" class="headerlink" title="译文"></a>译文</h3><p> &emsp;&emsp;河北真定县有一个父女双亡的女孩，今年六七岁了，收养在未婚夫家。生活了二三年，未婚夫引诱她发生了性关系，然后就怀孕了。女孩看着肚子越来越大，以为是生病了，便告诉了婆婆。婆婆问：“肚子里动吗？”，女孩回答说：“动。”婆婆感到更加奇怪，但因为女孩年龄太小，所以不敢认定是怀孕了。过了不久，女孩竟生了个男孩。婆婆叹气道：“没想到拳头大的小母亲竟生了个锥子大的小孩！”</p>
+<hr>
+<h3 id="原文"><a href="#原文" class="headerlink" title="原文"></a>原文</h3><blockquote>
+<p>&emsp;&emsp;真定界有孤女，方六七岁，收养于夫家。相居二三年，夫诱与交而孕。腹膨膨而以为病也，告之母。母曰：“动否？”曰：“动。”又益异。然以其齿太稚，不敢决。未几，生男。母叹曰：“不图拳母，竟生锥儿！”</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>小说</category>
+      </categories>
+      <tags>
+        <tag>聊斋志异</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>某网价值1800元的Python课程分享</title>
+    <url>/2019/08/19/%E6%9F%90%E7%BD%91%E4%BB%B7%E5%80%BC1800%E5%85%83%E7%9A%84Python%E8%AF%BE%E7%A8%8B%E5%88%86%E4%BA%AB/</url>
+    <content><![CDATA[<h2 id="Python3-数据分析与挖掘建模实战（全）"><a href="#Python3-数据分析与挖掘建模实战（全）" class="headerlink" title="Python3 数据分析与挖掘建模实战（全）"></a>Python3 数据分析与挖掘建模实战（全）</h2><h2 id="Python3-数据科学入门与实战"><a href="#Python3-数据科学入门与实战" class="headerlink" title="Python3 数据科学入门与实战"></a>Python3 数据科学入门与实战</h2><h2 id="Python-前后端分离开发-Vue-Django-REST-framework-实战-难度中级"><a href="#Python-前后端分离开发-Vue-Django-REST-framework-实战-难度中级" class="headerlink" title="Python 前后端分离开发 Vue+Django REST framework 实战 难度中级"></a>Python 前后端分离开发 Vue+Django REST framework 实战 难度中级</h2><h2 id="Python-升级-3-6-强力-Django-杀手级-Xadmin-打造在线教育平台"><a href="#Python-升级-3-6-强力-Django-杀手级-Xadmin-打造在线教育平台" class="headerlink" title="Python 升级 3.6 强力 Django+杀手级 Xadmin 打造在线教育平台"></a>Python 升级 3.6 强力 Django+杀手级 Xadmin 打造在线教育平台</h2><h2 id="基于-Python-Spark-的大数据分析"><a href="#基于-Python-Spark-的大数据分析" class="headerlink" title="基于 Python Spark 的大数据分析"></a>基于 Python Spark 的大数据分析</h2><h2 id="全网最热-Python3-入门-进阶-更快上手实际开发"><a href="#全网最热-Python3-入门-进阶-更快上手实际开发" class="headerlink" title="全网最热 Python3 入门+进阶 更快上手实际开发"></a>全网最热 Python3 入门+进阶 更快上手实际开发</h2><p>下载地址: <a href="https://pan.baidu.com/s/18wb_k0ghZgYmTBLKu5nP8g" target="_blank" rel="noopener">百度云盘</a> 提取码: 2333</p>
+]]></content>
+      <categories>
+        <category>Python</category>
+      </categories>
+      <tags>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>目前流行的9大前端框架</title>
+    <url>/2018/08/15/%E7%9B%AE%E5%89%8D%E6%B5%81%E8%A1%8C%E7%9A%849%E5%A4%A7%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/</url>
+    <content><![CDATA[<h2 id="1-Vue"><a href="#1-Vue" class="headerlink" title="1.Vue"></a>1.Vue</h2><p><a href="https://cn.vuejs.org" target="_blank" rel="noopener">https://cn.vuejs.org</a></p>
+<blockquote>
+<p>Vue (读音 /vjuː/，类似于 <strong>view</strong>) 是一套用于构建用户界面的<strong>渐进式框架</strong>。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与<a href="https://cn.vuejs.org/v2/guide/single-file-components.html" target="_blank" rel="noopener">现代化的工具链</a>以及各种<a href="https://github.com/vuejs/awesome-vue#libraries--plugins" target="_blank" rel="noopener">支持类库</a>结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>
+</blockquote>
+<h2 id="2-React"><a href="#2-React" class="headerlink" title="2.React"></a>2.React</h2><p><a href="https://react.docschina.org/" target="_blank" rel="noopener">https://react.docschina.org/</a></p>
+<blockquote>
+<p>React 是一个用于构建用户界面的 JAVASCRIPT 库。React 主要用于构建 UI，很多人认为 React 是 MVC 中的 V（视图）。React 起源于 Facebook 的内部项目，用来架设 Instagram 的网站，并于 2013 年 5 月开源。React 拥有较高的性能，代码逻辑非常简单，越来越多的人已开始关注和使用它。</p>
+</blockquote>
+<h2 id="3-Angular"><a href="#3-Angular" class="headerlink" title="3.Angular"></a>3.Angular</h2><p><a href="https://angular.io/" target="_blank" rel="noopener">https://angular.io</a></p>
+<blockquote>
+<p>AngularJS 诞生于 2009 年，由 Misko Hevery 等人创建，后为 Google 所收购。是一款优秀的前端 JS 框架，已经被用于 Google 的多款产品当中。AngularJS 有着诸多特性，最为核心的是：MVVM、模块化、<a href="https://www.angularjs.net.cn/tutorial/10.html" target="_blank" rel="noopener">自动化双向数据绑定</a>、语义化标签、<a href="https://www.angularjs.net.cn/tutorial/17.html" target="_blank" rel="noopener">依赖注入</a>等等。</p>
+</blockquote>
+<h2 id="4-QucikUI"><a href="#4-QucikUI" class="headerlink" title="4.QucikUI"></a>4.QucikUI</h2><p><a href="http://www.uileader.com/product_quickui.html" target="_blank" rel="noopener">http://www.uileader.com/product_quickui</a></p>
+<blockquote>
+<p>QucikUI 4.0 是一套完整的企业级 web 前端开发解决方案，由基础框架、UI 组件库、皮肤包、示例工程和文档等组成。底层基于 jquery 构建。使用 QucikUI 开发者可以极大地减少工作量，提高开发效率，快速构建功能强大、美观、兼容的 web 应用系统。</p>
+</blockquote>
+<h2 id="5-Layui"><a href="#5-Layui" class="headerlink" title="5.Layui"></a>5.Layui</h2><p><a href="https://www.layui.com/" target="_blank" rel="noopener">https://www.layui.com/</a></p>
+<blockquote>
+<p>layui（谐音：类 UI) 是一款采用自身模块规范编写的前端 UI 框架，遵循原生 HTML/CSS/JS 的书写与组织形式，门槛极低，拿来即用。其外在极简，却又不失饱满的内在，体积轻盈，组件丰盈，从核心代码到 API 的每一处细节都经过精心雕琢，非常适合界面的快速开发。layui 首个版本发布于 2016 年金秋，她区别于那些基于 MVVM 底层的 UI 框架，却并非逆道而行，而是信奉返璞归真之道。准确地说，她更多是为服务端程序员量身定做，你无需涉足各种前端工具的复杂配置，只需面对浏览器本身，让一切你所需要的元素与交互，从这里信手拈来。</p>
+</blockquote>
+<h2 id="6-Avalon"><a href="#6-Avalon" class="headerlink" title="6.Avalon"></a>6.Avalon</h2><p><a href="http://avalonjs.coding.me/" target="_blank" rel="noopener">http://avalonjs.coding.me/</a></p>
+<blockquote>
+<p>avalon2 是一款基于虚拟 DOM 与属性劫持的 迷你、 易用、 高性能 的 前端 MVVM 框架， 拥有超优秀的兼容性, 支持移动开发, 后端渲染, WEB Component 式组件开发, 无需编译, 开箱即用。</p>
+</blockquote>
+<h2 id="7-Dojo"><a href="#7-Dojo" class="headerlink" title="7.Dojo"></a>7.Dojo</h2><p><a href="https://dojo.io/" target="_blank" rel="noopener">https://dojo.io/</a></p>
+<blockquote>
+<p>Dojo 致力于实现最大的互操作性。Web 组件提供了一种机制，可以在 Dojo 应用程序中利用非 Dojo 组件，并在非 Dojo 应用程序中轻松使用基于 Dojo 的小部件。Dojo 为 Web 组件提供一流的支持。您今天做出的决定不应该将您锁定在未来的决策中。</p>
+</blockquote>
+<h2 id="8-Ember"><a href="#8-Ember" class="headerlink" title="8.Ember"></a>8.Ember</h2><p><a href="https://emberjs.com/" target="_blank" rel="noopener">https://emberjs.com/</a></p>
+<blockquote>
+<p>Ember.js 可能是最固执己见的主流框架，这也是其最大的优势。它有创建 Ember.js 应用程序的正确方法，通常只有一种方法来创建应用程序。Ember.js 更类似于一个产品或平台，在那里你会到一个供应商的长期支持和维护。Ember.js 提供了对其平台的全面版本管理，升级工具以及对 API 升级的强大指导和工具。成熟，是对 Ember.js 的一个很好的总结。</p>
+</blockquote>
+<h2 id="9-Aurelia"><a href="#9-Aurelia" class="headerlink" title="9.Aurelia"></a>9.Aurelia</h2><p><a href="https://aurelia.io/" target="_blank" rel="noopener">https://aurelia.io/</a></p>
+<blockquote>
+<p>Aurelia 是一个令人惊叹的框架，它在不牺牲功能的情况下采用简单而干净的代码。在本教程中，我们将通过构建“Todo”应用程序向您介绍 Aurelia 的简单性。您将看到应用程序代码的简洁程度，您将学习 Aurelia 的几个基本概念和功能。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+</search>
