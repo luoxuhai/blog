@@ -24,7 +24,7 @@ footer:
   icon: user
 
   # If not defined, will be used `author` from Hexo main config.
-  copyright:
+  copyright: <a target="_blank" href="https://github.com/ibyli">Darkce</a>
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
   powered: false
@@ -36,7 +36,7 @@ footer:
     version: true
   # -------------------------------------------------------------
   # Any custom text can be defined here.
-  #custom_text: Hosted by <a target="_blank" href="https://pages.github.com">GitHub Pages</a>
+  # custom_text: <a target="_blank" href="https://github.com/ibyli">GitHub</a>
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -107,7 +107,7 @@ social:
 social_icons:
   enable: true
   icons_only: false
-  transition: false
+  transition: true
 
 # Blog rolls
 links_icon: link
@@ -163,7 +163,7 @@ sidebar:
   offset: 12
 
   # Back to top in sidebar (only for Pisces | Gemini).
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button.
   scrollpercent: true
@@ -202,9 +202,9 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false  # 文章字数
-  min2read: false   # 阅读时间
-  totalcount: false  # 总共字数
+  wordcount: true  # 文章字数
+  min2read: true   # 阅读时间
+  totalcount: true  # 总共字数
   separated_meta: true
 
 # Wechat Subscriber
@@ -526,7 +526,7 @@ busuanzi_count:
   site_uv_header: <i class="fa fa-user"></i>
   site_uv_footer:
   # custom pv span for the whole site
-  site_pv: false
+  site_pv: true
   site_pv_header: <i class="fa fa-eye"></i>
   site_pv_footer:
   # custom pv span for one page only
@@ -666,7 +666,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest: false
 
 # three_waves
 three_waves: false
