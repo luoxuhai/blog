@@ -45,3 +45,4 @@
   #}{{ theme.footer.custom_text }}{#
 #}</div>
 {% endif %}
+<div style="position: fixed;right: 0;bottom: 0;width: 65px;height: 65px;z-index: 99;"><a href="https://myssl.com/luoxuhai.netlify.com/?from=mysslid"><img src="https://static.myssl.com/res/images/myssl-id.png" style="width:100%;height:100%"></a></div>
