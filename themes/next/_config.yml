@@ -1,4 +1,3 @@
-
 override: false
 
 favicon:
@@ -12,7 +11,6 @@ favicon:
 # Set default keywords (Use a comma to separate)
 keywords: "前端, 大前端, node, javascript, css, html, flutter, mongoose, mongo, react"
 
-
 rss:
 
 footer:
@@ -24,7 +22,7 @@ footer:
   icon: user
 
   # If not defined, will be used `author` from Hexo main config.
-  copyright: <a target="_blank" href="https://github.com/ibyli">Darkce</a>
+  copyright: <a target="_blank" href="https://github.com/ibyli">Luoxuhai</a>
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
   powered: false
@@ -54,7 +52,6 @@ seo: true
 # subtitle: Subtitle
 index_with_subtitle: false
 
-
 # ---------------------------------------------------------------
 # Menu Settings
 # ---------------------------------------------------------------
@@ -77,7 +74,6 @@ menu:
 menu_icons:
   enable: true
 
-
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
@@ -87,7 +83,6 @@ menu_icons:
 #scheme: Mist
 scheme: Pisces
 #scheme: Gemini
-
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -99,7 +94,8 @@ scheme: Pisces
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/ibyli || github
+  微信: https://blog-luo.oss-cn-beijing.aliyuncs.com/qrcode/mmqrcode1580471197905.png
+  GitHub: https://github.com/luoxuhai || github
   简书: https://www.jianshu.com/u/75fa85931aaa
   知乎: https://www.zhihu.com/people/FavoriteVYVE/activities
   B站: https://space.bilibili.com/46358562
@@ -115,18 +111,16 @@ links_title: Links
 links_layout: block
 #links_layout: inline
 links:
-  古典小说: https://classics.furuzix.top/
   现代 JavaScript 教程: https://zh.javascript.info/
-  字体家: https://www.zitijia.com/
-  Color Hunt: https://colorhunt.co/
-  中国传统颜色:  http://zhongguose.com/
+  古典小说阅读: https://classics.furuzix.top/
+  陈红鼓励师 for VS Code Extension: https://marketplace.visualstudio.com/items?itemName=luoxuhai.chenhong
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
 avatar: https://blog-luo.oss-cn-beijing.aliyuncs.com/user/avatar.png?x-oss-process=style/m
-author: 'Darkce'
-description: '胡编一通，乱写一气'
+author: "Luoxuhai"
+description: "胡编一通，乱写一气"
 
 # Table Of Contents in the Sidebar
 toc:
@@ -171,7 +165,6 @@ sidebar:
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: true
 
-
 # ---------------------------------------------------------------
 # Post Settings
 # ---------------------------------------------------------------
@@ -202,9 +195,9 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: true  # 文章字数
-  min2read: true   # 阅读时间
-  totalcount: true  # 总共字数
+  wordcount: true # 文章字数
+  min2read: true # 阅读时间
+  totalcount: true # 总共字数
   separated_meta: true
 
 # Wechat Subscriber
@@ -223,7 +216,6 @@ post_copyright:
   enable: false
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
-
 
 # ---------------------------------------------------------------
 # Misc Theme Settings
@@ -249,7 +241,6 @@ custom_logo:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
 highlight_theme: normal
-
 
 # ---------------------------------------------------------------
 # Font Settings
@@ -306,7 +297,6 @@ font:
     family:
     size:
 
-
 # ---------------------------------------------------------------
 # Third Party Services Settings
 # ---------------------------------------------------------------
@@ -344,21 +334,19 @@ changyan:
   appid:
   appkey:
 
-
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
   enable: false
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
+  appid: # your leancloud application appid
+  appkey: # your leancloud application appkey
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
   placeholder: Just go go # comment box placeholder
   avatar: mm # gravatar style
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
-
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
@@ -397,7 +385,7 @@ type: button
 # And you can find the use guide at official webiste: http://www.jiathis.com/.
 # Warning: JiaThis does not support https.
 #jiathis:
-  ##uid: Get this uid from http://www.jiathis.com/
+##uid: Get this uid from http://www.jiathis.com/
 #add_this_id:
 
 # Share
@@ -467,36 +455,36 @@ duoshuo_info:
 # Facebook SDK Support.
 # https://github.com/iissnan/hexo-theme-next/pull/410
 facebook_sdk:
-  enable:       false
-  app_id:       #<app_id>
-  fb_admin:     #<user_id>
-  like_button:  #true
-  webmaster:    #true
+  enable: false
+  app_id: #<app_id>
+  fb_admin: #<user_id>
+  like_button: #true
+  webmaster: #true
 
 # Facebook comments plugin
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
 facebook_comments_plugin:
-  enable:       false
-  num_of_posts: 10    # min posts num is 1
-  width:        100%  # default width is 550px
-  scheme:       light # default scheme is light (light or dark)
+  enable: false
+  num_of_posts: 10 # min posts num is 1
+  width: 100% # default width is 550px
+  scheme: light # default scheme is light (light or dark)
 
 # VKontakte API Support.
 # To get your AppID visit https://vk.com/editapp?act=create
 vkontakte_api:
-  enable:       false
-  app_id:       #<app_id>
-  like:         true
-  comments:     true
+  enable: false
+  app_id: #<app_id>
+  like: true
+  comments: true
   num_of_posts: 10
 
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
 rating:
   enable: false
-  id:     #<app_id>
-  color:  fc6423
+  id: #<app_id>
+  color: fc6423
 # ---------------------------------------------------------------
 
 # Show number of visitors to each article.
@@ -534,13 +522,11 @@ busuanzi_count:
   page_pv_header: <i class="fa fa-eye"></i>
   page_pv_footer:
 
-
 # Tencent analytics ID
 # tencent_analytics:
 
 # Tencent MTA ID
 # tencent_mta:
-
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
 baidu_push: false
@@ -582,7 +568,6 @@ local_search:
   # show top n results per article, show all results by setting to -1
   top_n_per_article: 1
 
-
 # ---------------------------------------------------------------
 # Tags Settings
 # ---------------------------------------------------------------
@@ -616,7 +601,6 @@ tabs:
     tabs: true
     labels: true
   border_radius: 5
-
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
@@ -774,11 +758,10 @@ vendors:
   # https://github.com/revir/need-more-share2
   needMoreShare2:
 
-
 # Assets
 css: css
 js: js
 images: images
 
 # Theme version
-version: 5.1.4
+version: 7.7.0
