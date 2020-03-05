@@ -111,9 +111,9 @@ links_title: Links
 links_layout: block
 #links_layout: inline
 links:
-  现代 JavaScript 教程: https://zh.javascript.info/
+  快用工具: https://fastools.cn
   古典小说阅读: https://classics.furuzix.top/
-  陈红鼓励师 for VS Code Extension: https://marketplace.visualstudio.com/items?itemName=luoxuhai.chenhong
+  现代 JavaScript 教程: https://zh.javascript.info/
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -529,7 +529,7 @@ busuanzi_count:
 # tencent_mta:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
