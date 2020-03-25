@@ -22,7 +22,7 @@ footer:
   icon: user
 
   # If not defined, will be used `author` from Hexo main config.
-  copyright: <a target="_blank" href="https://github.com/ibyli">Luoxuhai</a>
+  copyright: <a target="_blank" href=" https://www.fastools.cn">快用工具</a>
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
   powered: false
@@ -111,9 +111,8 @@ links_title: Links
 links_layout: block
 #links_layout: inline
 links:
-  快用工具: https://fastools.cn
-  古典小说阅读: https://classics.furuzix.top/
-  现代 JavaScript 教程: https://zh.javascript.info/
+  快用工具-又快又好用的在线工具网: https://www.fastools.cn
+  古典小说阅读: https://classics.furuzix.top
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -203,8 +202,8 @@ post_wordcount:
 # Wechat Subscriber
 wechat_subscriber:
   enabled: true
-  qcode: https://big-frontend.oss-cn-beijing.aliyuncs.com/app/qrcode/qrcode_for_gh_542ac3ad35f4_430.jpg
-  description: 欢迎您扫一扫上面的微信公众号，订阅我的博客！
+  qcode: https://static.fastools.cn/images/qrcode.jpg?x-oss-process=style/fade
+  description: 快用工具 - 又快又好用的在线工具网
 
 # Reward
 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
