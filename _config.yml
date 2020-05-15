@@ -83,6 +83,6 @@ theme: next
 
 deploy:
   type: git
-  repo: https://github.com/luoxuhai/blog
+  repo: https://github.com/luoxuhai/luoxuhai.github.io
   branch: master
   message: 
